@@ -1,1 +1,47 @@
-/* Add your CSS Below */
+table{
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: 1rem;
+    min-width: 350px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+table thead tr{
+    background: darkgreen;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+}
+
+table th,
+table td{
+    padding: 8px 12px;
+}
+
+table tbody td{
+    text-align: right;
+}
+
+table tbody tr{
+    text-align: right;
+    border-bottom: 1px solid lightgray;
+}
+
+table thead tr th:nth-child(2){
+    text-align: left;
+}
+
+table tbody tr td:nth-child(2){
+    text-align: left;
+}
+
+table tbody tr:nth-child(1),
+table tbody tr:nth-child(3),
+table tbody tr:nth-child(5){
+    background-color: whitesmoke;
+}
+
+table tbody tr:hover{
+    background-color: lightgreen;
+}
